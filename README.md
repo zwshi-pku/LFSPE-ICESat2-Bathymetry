@@ -21,15 +21,11 @@ Run in Matlab: demo_extract_powerline.m
 
 Results
 --------------
-<div align=center>
-<img src="https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f1_nonGroundPoints.png"  height="70%" width="70%">
-<img src="https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f2_candidate%20powerline%20points.png"  height="70%" width="70%">
-<img src="https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f3_candidate%20powerline%20points%20clusters.png"  height="70%" width="70%">
-<img src="https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f4_powerline%20points%20clusters.png"  height="70%" width="70%">
-<img src="https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f5_colorization%20clusters.png"  height="70%" width="70%">
-<img src="https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f6_powerLines%20clusters.png"  height="70%" width="70%">
-<img src="https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f7_Power%20line%20model.png"  height="70%" width="70%">
-</div>
+![Results](O_figure3-1.png)
+![Results](O_figure3-2.png)
+![Results](O_figure4-1.png)
+![Results](O_figure5-2.png)
+![Results](O_figure6-1.png)
 
 📄 License
 --------------
