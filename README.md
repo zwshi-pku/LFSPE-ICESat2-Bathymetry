@@ -37,7 +37,8 @@ Due to size constraints, datasets are hosted externally.
 For questions, feedback, or collaboration inquiries, please contact:
 📨 Zhenwei Shi: shizw@aircas.ac.cn
 
-📄 License
+## 📄 License
+
 This code is released for academic and non-commercial use only.
 For commercial licensing or extended use, please contact the authors.
 ---
