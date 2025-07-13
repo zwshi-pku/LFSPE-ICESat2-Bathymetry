@@ -3,7 +3,7 @@ This repository provides the implementation of the **Linear Feature-Based Signal
 
 The method is designed to improve signal photon identification accuracy and robustness across varying water depths and noise conditions by leveraging linear feature characteristics and adaptive parameter strategies.
 
-PointClouds
+ICESat-2 and validation data
 --------------
 📥 Download full datasets from Google Drive:
 🔗 [ICESat-2 and validation data](https://drive.google.com/drive/folders/1RTBe8tc0kQiUXllJGJ4sMKz0Mpm5O1TD?usp=drive_link)
