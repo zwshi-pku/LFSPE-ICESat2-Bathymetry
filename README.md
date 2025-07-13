@@ -4,9 +4,8 @@ This repository provides the implementation of the **Linear Feature-Based Signal
 
 The method is designed to improve signal photon identification accuracy and robustness across varying water depths and noise conditions by leveraging linear feature characteristics and adaptive parameter strategies.
 
----
 
-## 📂 Structure
+# 📂 Structure
 
 ```text
 ├── run_bathymetry.m              # 🔹 Main entry point
@@ -14,9 +13,9 @@ The method is designed to improve signal photon identification accuracy and robu
 ├── getParametersSeaSurface.m     # 🔧 Set parameters for sea surface photon extraction
 └── README.md
 
----
 
-## 🚀 How to Run
+
+# 🚀 How to Run
 
 1. Open **MATLAB** (R2021a or later recommended).
 2. Set your current working directory to the root of this project.
@@ -25,7 +24,7 @@ The method is designed to improve signal photon identification accuracy and robu
    ```matlab
    run_bathymetry
 
----
+
 
 📦 Dataset Access
 Due to size constraints, datasets are hosted externally.
