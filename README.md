@@ -27,21 +27,18 @@ The method is designed to improve signal photon identification accuracy and robu
 
 ---
 
-## 🛰️ Dataset Access
-Due to size limitations, the full ICESat-2 and validation datasets are hosted externally.
+📦 Dataset Access
+Due to size constraints, datasets are hosted externally.
 
-📦 Download the full dataset from Google Drive:
-👉 https://drive.google.com/drive/folders/1RTBe8tc0kQiUXllJGJ4sMKz0Mpm5O1TD?usp=drive_link
+📥 Download full datasets from Google Drive:
+🔗 ICESat-2 and validation data
 
----
 
-## 📧 Contact
+📧 Contact
 For questions, feedback, or collaboration inquiries, please contact:
 📨 Zhenwei Shi: shizw@aircas.ac.cn
 
----
-
-##📄 License
+📄 License
 This code is released for academic and non-commercial use only.
 For commercial licensing or extended use, please contact the authors.
 ---
