@@ -4,13 +4,8 @@ This repository provides the implementation of the **Linear Feature-Based Signal
 
 The method is designed to improve signal photon identification accuracy and robustness across varying water depths and noise conditions by leveraging linear feature characteristics and adaptive parameter strategies.
 
-## 📄 License
 
-This code is released for academic and non-commercial use only.
-For commercial licensing or extended use, please contact the authors.
 ---
-
-
 # 📂 Structure
 
 ```text
@@ -19,6 +14,7 @@ For commercial licensing or extended use, please contact the authors.
 ├── getParametersSeaSurface.m     # 🔧 Set parameters for sea surface photon extraction
 └── README.md
 
+---
 
 
 # 🚀 How to Run
@@ -38,6 +34,10 @@ Due to size constraints, datasets are hosted externally.
 📥 Download full datasets from Google Drive:
 🔗 ICESat-2 and validation data
 
+📄 License
+
+This code is released for academic and non-commercial use only.
+For commercial licensing or extended use, please contact the authors.
 
 📧 Contact
 For questions, feedback, or collaboration inquiries, please contact:
