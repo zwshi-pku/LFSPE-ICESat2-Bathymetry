@@ -25,17 +25,24 @@ The method is designed to improve signal photon identification accuracy and robu
    ```matlab
    run_bathymetry
 
+---
+
 ## 🛰️ Dataset Access
 Due to size limitations, the full ICESat-2 and validation datasets are hosted externally.
 
 📦 Download the full dataset from Google Drive:
 👉 https://drive.google.com/drive/folders/1RTBe8tc0kQiUXllJGJ4sMKz0Mpm5O1TD?usp=drive_link
 
+---
+
 ## 📧 Contact
 For questions, feedback, or collaboration inquiries, please contact:
 📨 Zhenwei Shi: shizw@aircas.ac.cn
 
+---
+
 ##📄 License
 This code is released for academic and non-commercial use only.
 For commercial licensing or extended use, please contact the authors.
+---
 
