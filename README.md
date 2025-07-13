@@ -19,14 +19,6 @@ Run in Matlab: demo_extract_powerline.m
    run_bathymetry
 ```
 
-Results
---------------
-![Results](O_figure3-1.png)
-![Results](O_figure3-2.png)
-![Results](O_figure4-1.png)
-![Results](O_figure5-2.png)
-![Results](O_figure6-1.png)
-
 📄 License
 --------------
 This code is released for academic and non-commercial use only.
@@ -37,9 +29,16 @@ For commercial licensing or extended use, please contact the authors.
 For questions, feedback, or collaboration inquiries, please contact:
 📨 Zhenwei Shi: shizw@aircas.ac.cn
 
-
-
-
-
-
+Results
+--------------
+![Results](O_figure3-1.png)
+![Results](O_figure3-2.png)
+![Results](O_figure4-1.png)
+![Results](O_figure5-2.png)
+![Results](O_figure6-1.png)
+![Results](N_figure3-1.png)
+![Results](N_figure3-2.png)
+![Results](N_figure4-1.png)
+![Results](N_figure5-2.png)
+![Results](N_figure6-1.png)
 
