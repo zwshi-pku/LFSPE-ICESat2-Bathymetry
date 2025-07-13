@@ -31,14 +31,7 @@ For questions, feedback, or collaboration inquiries, please contact:
 
 Results
 --------------
-![Results](O_figure3-1.png)
-![Results](O_figure3-2.png)
-![Results](O_figure4-1.png)
-![Results](O_figure5-2.png)
-![Results](O_figure6-1.png)
-![Results](N_figure3-1.png)
-![Results](N_figure3-2.png)
-![Results](N_figure4-1.png)
-![Results](N_figure5-2.png)
-![Results](N_figure6-1.png)
+![Results](fig3.png)
+![Results](fig5-1.png)
+![Results](fig5-2.png)
 
