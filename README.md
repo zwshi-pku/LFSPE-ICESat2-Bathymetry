@@ -4,6 +4,12 @@ This repository provides the implementation of the **Linear Feature-Based Signal
 
 The method is designed to improve signal photon identification accuracy and robustness across varying water depths and noise conditions by leveraging linear feature characteristics and adaptive parameter strategies.
 
+## 📄 License
+
+This code is released for academic and non-commercial use only.
+For commercial licensing or extended use, please contact the authors.
+---
+
 
 # 📂 Structure
 
@@ -37,9 +43,4 @@ Due to size constraints, datasets are hosted externally.
 For questions, feedback, or collaboration inquiries, please contact:
 📨 Zhenwei Shi: shizw@aircas.ac.cn
 
-## 📄 License
-
-This code is released for academic and non-commercial use only.
-For commercial licensing or extended use, please contact the authors.
----
 
