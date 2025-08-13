@@ -18,12 +18,38 @@ The **LFSPE** algorithm improves signal photon identification accuracy and robus
 
 **Performance Highlights** (vs. DBSCAN):
 
-| Metric     | LFSPE  | DBSCAN |
-|:----------:|:------:|:------:|
-| Precision  | **0.977** | 0.751  |
-| Recall     | **0.958** | 0.817  |
-| F1 Score   | **0.967** | 0.778  |
-| OA         | **0.972** | 0.796  |
+<table style="width:100%; text-align:center;">
+  <thead>
+    <tr>
+      <th style="width:20%;">Metric</th>
+      <th style="width:40%;">LFSPE</th>
+      <th style="width:40%;">DBSCAN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Precision</td>
+      <td><b>0.977</b></td>
+      <td>0.751</td>
+    </tr>
+    <tr>
+      <td>Recall</td>
+      <td><b>0.958</b></td>
+      <td>0.817</td>
+    </tr>
+    <tr>
+      <td>F1 Score</td>
+      <td><b>0.967</b></td>
+      <td>0.778</td>
+    </tr>
+    <tr>
+      <td>OA</td>
+      <td><b>0.972</b></td>
+      <td>0.796</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ---
 
