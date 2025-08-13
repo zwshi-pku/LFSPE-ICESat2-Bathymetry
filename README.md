@@ -19,11 +19,11 @@ The **LFSPE** algorithm improves signal photon identification accuracy and robus
 **Performance Highlights** (vs. DBSCAN):
 
 | Metric     | LFSPE  | DBSCAN |
-|------------|--------|--------|
-| Precision  | 0.977  | 0.751  |
-| Recall     | 0.958  | 0.817  |
-| F1 Score   | 0.967  | 0.778  |
-| OA         | 0.972  | 0.796  |
+|:----------:|:------:|:------:|
+| Precision  | **0.977** | 0.751  |
+| Recall     | **0.958** | 0.817  |
+| F1 Score   | **0.967** | 0.778  |
+| OA         | **0.972** | 0.796  |
 
 ---
 
@@ -52,18 +52,17 @@ The **LFSPE** algorithm improves signal photon identification accuracy and robus
 % 3. Execute:
 run_bathymetry
 
+---
+
 ## 📄 License
---------------
 This code is released for academic and non-commercial use only.
 For commercial licensing or extended use, please contact the authors.
 
 ## 📧 Contact
---------------
 For questions, feedback, or collaboration inquiries, please contact:
 📨 Zhenwei Shi: shizw@aircas.ac.cn
 
 ## Results
---------------
 ![Results](fig3.png)
 ![Results](fig5-1.png)
 ![Results](fig5-2.png)
