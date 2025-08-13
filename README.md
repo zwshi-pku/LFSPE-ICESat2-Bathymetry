@@ -18,16 +18,48 @@ The **LFSPE** algorithm improves signal photon identification accuracy and robus
 
 **Performance Highlights** (vs. DBSCAN):
 
-<p align="center">
+<!-- Performance Highlights (vs. DBSCAN) -->
+<div align="center">
 
-| Metric     | LFSPE  | DBSCAN |
-|:----------:|:------:|:------:|
-| Precision  | **0.977** | 0.751  |
-| Recall     | **0.958** | 0.817  |
-| F1 Score   | **0.967** | 0.778  |
-| OA         | **0.972** | 0.796  |
+<table width="100%">
+  <colgroup>
+    <col width="20%">
+    <col width="40%">
+    <col width="40%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th align="center">Metric</th>
+      <th align="center">LFSPE</th>
+      <th align="center">DBSCAN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Precision</td>
+      <td align="center"><b>0.977</b></td>
+      <td align="center">0.751</td>
+    </tr>
+    <tr>
+      <td align="center">Recall</td>
+      <td align="center"><b>0.958</b></td>
+      <td align="center">0.817</td>
+    </tr>
+    <tr>
+      <td align="center">F1 Score</td>
+      <td align="center"><b>0.967</b></td>
+      <td align="center">0.778</td>
+    </tr>
+    <tr>
+      <td align="center">OA</td>
+      <td align="center"><b>0.972</b></td>
+      <td align="center">0.796</td>
+    </tr>
+  </tbody>
+</table>
 
-</p>
+</div>
+
 
 
 ---
@@ -40,25 +72,15 @@ The **LFSPE** algorithm improves signal photon identification accuracy and robus
 
 ---
 
-## 🛠 Requirements
-
-- MATLAB **R2022a** or later  
-- **Mapping Toolbox** (for geospatial visualization)  
-- **Statistics and Machine Learning Toolbox** (for RANSAC fitting)  
-
----
-
 ## 🚀 Usage
-
 ### Run Bathymetry Extraction
 ```matlab
 % 1. Open MATLAB (R2022a or later recommended)
 % 2. Set the current working directory to the root of this project
 % 3. Execute:
 run_bathymetry
-
+ ```
 ---
-
 ## 📄 License
 This code is released for academic and non-commercial use only.
 For commercial licensing or extended use, please contact the authors.
