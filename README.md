@@ -1,4 +1,4 @@
-# 1. LFSPE-ICESat2-Bathymetry
+<img width="2047" height="3007" alt="fig3" src="https://github.com/user-attachments/assets/1f2673a4-9206-46b4-87b2-e904ce963e87" /># 1. LFSPE-ICESat2-Bathymetry
 
 This repository provides the official MATLAB implementation of the **Linear Feature-Based Signal Photon Extraction (LFSPE)** algorithm for shallow-water bathymetry using ICESat-2 ATL03 photon-counting LiDAR data, as proposed in:
 
@@ -92,12 +92,12 @@ For questions, feedback, or collaboration inquiries, please contact:
 ## 1.6 Results
 <div align="center">
 
-<img src="fig3.png" alt="Results" width="80%">
+<img src="figures\fig3.png" alt="Results" width="80%">
 
 **Coarse segmentation of underwater and non-underwater photons. Panels (a–h) correspond to datasets 1–8. Underwater photons are represented in orange, and non-underwater photons in blue.** 
 
-<img src="fig5-1.png" alt="Results" width="80%">
-<img src="fig5-2.png" alt="Results" width="80%">
+<img src="figures\fig5-1.png" alt="Results" width="80%">
+<img src="figures\fig5-2.png" alt="Results" width="80%">
 
 **Signal photon extraction results, with (a–h) corresponding to experimental datasets 1–8.**
 </div>
