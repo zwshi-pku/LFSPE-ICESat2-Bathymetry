@@ -73,13 +73,75 @@ The **LFSPE** algorithm improves signal photon identification accuracy and robus
 ---
 
 ## 1.3 Usage
-### Run Bathymetry Extraction
+### test1: Run Bathymetry Extraction
 ```matlab
 % 1. Open MATLAB (R2022a or later recommended)
 % 2. Set the current working directory to the root of this project
 % 3. Execute:
 run_bathymetry
  ```
+
+### test2
+```matlab
+clc; clear; close all
+FILE_NAME = 'E:\ICESat-2_beijing\ATL03_20231103152820_06972102_006_01.h5';
+
+bm = '/gt3r';
+atl03 = getatl03(FILE_NAME, bm, false);
+
+try
+    xxs = atl03.atd(1:10000);
+    yys = atl03.alt(1:10000);
+catch
+    xxs = atl03.atd;
+    yys = atl03.alt;
+end
+
+minDistance = 0.5;
+
+idxs = vec_resolution(xxs,yys, minDistance);
+xx = xxs(idxs);
+yy = yys(idxs);
+
+rng(0)
+
+xx = xx-min(xx);
+
+x_scaled = adjust_intervals(xx,[]);
+%% 
+x1 = x_scaled;
+y1 = yy;
+
+params.radius = 30;
+params.distT = 1.5;
+params.resT = 2.5;
+params.distsrT = 5;
+params.densityT = 20;
+
+[density1, lines, idx, res, idnew1, slope, dists, radii, distsr1] = getdensity(x1,y1,params.radius,params.distT, params.distsrT,params.densityT, params.resT,"seasurface", [], []);
+if islogical(idnew1), idnew1 = find(idnew1); end
+id_in_orig = idxs(idnew1);     % xxs/yys index
+
+
+
+%%
+idnew1 = density1>5 | distsr1 < 5;
+
+figure('Position', [100, 100, 450, 300]);
+plot(x1, y1, 'k.');
+hold on;
+plot(x1(idnew1), y1(idnew1), '.', 'Color', [0.0, 0.45, 0.70]); 
+set(gca, 'FontSize', 12)
+lgd = legend({'Other photons', 'Signal photons'},'Location', 'northeast', 'FontSize', 12)
+lgd.Box = 'on'; 
+lgd.Color = 'white'; 
+xlabel('Along-track distance (m)', 'FontSize', 12)
+ylabel('Elevation (m)', 'FontSize', 12)
+% xlim([0 max(x)])
+axis equal
+ ```
+
+
 ---
 ## 1.4 License
 This code is released for academic and non-commercial use only.
