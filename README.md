@@ -61,7 +61,6 @@ The **LFSPE** algorithm improves signal photon identification accuracy and robus
 </div>
 
 
-
 ---
 
 ## 1.2 Data Sources
@@ -121,8 +120,6 @@ params.densityT = 20;
 [density1, lines, idx, res, idnew1, slope, dists, radii, distsr1] = getdensity(x1,y1,params.radius,params.distT, params.distsrT,params.densityT, params.resT,"seasurface", [], []);
 if islogical(idnew1), idnew1 = find(idnew1); end
 id_in_orig = idxs(idnew1);     % xxs/yys index
-
-
 
 %%
 idnew1 = density1>5 | distsr1 < 5;
